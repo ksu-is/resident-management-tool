@@ -6,3 +6,4 @@ ORIGINAL DEVELOPER:
 
 EDITED BY: EVRILE POCHE
 
+This a resident management tool for an assisted living facility. This system allows the home to manage resident information.

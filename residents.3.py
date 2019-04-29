@@ -1,21 +1,7 @@
- 
+
 import time
 import pickle
 import os
-
-from tkinter import *
-root = Tk()
-
-#title of applicatiion
-root.title("SWEET COMFORT RESIDENT MANAGEMENT SYSTEM")
-w = Label(root, text="")
-w.pack()
-
-frame = Frame(root, width=1024, height=768)
-frame.pack()
-
-
-
 class home:
     def _init_(self):
         self.id=0
@@ -346,20 +332,8 @@ while True:
         time.sleep(.6)
         print(".")
         print("\n\n\n.........PLEASE RE-ENTER YOUR SELECTION........\n\n\n")
-
-
-text_input = ['A Resident Management System Tool for an Assisted Living Facility']
-text_input.reverse()
-
-def add_input():
-    if len(text_input) > 0:
-        input_frame = Label(frame, text=text_input.pop())
-        input_frame.pack()
-        root.after(600, add_input)
-
-        
-root.after(0, add_input)
-root.mainloop()   
+   
+    
 
               
                     
