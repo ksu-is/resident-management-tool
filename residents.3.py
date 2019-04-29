@@ -283,6 +283,7 @@ while True:
     elif select==2:
        readhome()
     elif select==3:
+        n=(eval(input("ENTER RESIDENT ID #")))
         Searchhomeid(n)
        
     elif select==4:
