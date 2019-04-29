@@ -128,7 +128,7 @@ def writehome():
     fout=open("home.DAT","ab")
     ob=home()
     print ("ENTER NEW RESIDENT INFORMATION: :")
-    ob.input()
+    ob=input()
     pickle.dump(ob,fout)
     print ("Records Saved")
 
@@ -284,8 +284,11 @@ while True:
        readhome()
     elif select==3:
         Searchhomeid(n)
+       
     elif select==4:
+        n=(eval(input("ENTER LAST 4 OF RESIDENT'S SSN")))
         Searchhomessn(n)
+
     elif select==5:
         m=eval(input("ENTER RESIDENT'S ID# TO MODIFY: "))
         print("\n")
